@@ -1,0 +1,6 @@
+component: website
+name: what-about
+
+inputs:
+  src:
+    src: ./src
