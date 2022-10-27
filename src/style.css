@@ -1,0 +1,78 @@
+html, body, .container {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  background-color: #f5f7f7;
+  background-image: url('imgs/blueprint.png');
+  background-size: 90px auto;
+  box-shadow: 0px 0px 75px #999 inset;
+}
+
+.container {
+  align-items: center;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.container #response {
+  font-family: 'Passion One';
+  font-size: 100px;
+  font-weight: 700;
+  max-width: 901px;
+  text-align: center;
+  text-shadow: 0px 0px 5px #bbb;
+}
+
+.container .button {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  text-align: center;
+  height: 65px;
+}
+
+.container .button button {
+  align-items: center;
+  background-color: transparent;
+  border: 3px solid #333;
+  border-radius: 20px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  font-family: Roboto;
+  font-size: 16px;
+  height: 45px;
+  padding: 10px 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container .button button svg {
+  transform-origin: 46% 50%;
+}
+
+.container .button button span {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  margin-left: 5px;
+}
+
+.container .button button:hover svg {
+  animation: spin 3s infinite;
+  animation-timing-function: linear;
+}
+
+.container .button button path {
+  color: #333;
+}
