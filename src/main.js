@@ -44,3 +44,9 @@ function getRandomResponse(lastResponse = "") {
   } while (responses[random].text === lastResponse);
   return responses[random];
 }
+
+const response = document.getElementById("response");
+const icon = document.getElementById("icon");
+const rerun = document.getElementById("rerun");
+const label = document.getElementById("label");
+
