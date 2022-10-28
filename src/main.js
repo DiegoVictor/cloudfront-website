@@ -50,3 +50,16 @@ const icon = document.getElementById("icon");
 const rerun = document.getElementById("rerun");
 const label = document.getElementById("label");
 
+function respond() {
+  const { text, color } = getRandomResponse(response.innerHTML);
+
+  response.innerHTML = text;
+  response.style.color = color;
+  icon.style.color = color;
+  rerun.style.borderColor = color;
+  label.style.color = color;
+}
+
+respond();
+
+rerun.onclick = respond;
