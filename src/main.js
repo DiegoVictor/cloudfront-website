@@ -37,3 +37,10 @@ const responses = [
   },
 ];
 
+function getRandomResponse(lastResponse = "") {
+  let random;
+  do {
+    random = Date.now() % responses.length;
+  } while (responses[random].text === lastResponse);
+  return responses[random];
+}
