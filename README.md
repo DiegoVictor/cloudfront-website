@@ -7,3 +7,7 @@ Generates a random response.
 
 ![Demo](https://raw.githubusercontent.com/DiegoVictor/what-about-it/main/screenshots/what-about-it.gif)
 
+## Table of Contents
+* [Requirements](#requirements)
+* [Deploy](#deploy)
+
