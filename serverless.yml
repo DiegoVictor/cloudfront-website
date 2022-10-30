@@ -1,5 +1,5 @@
 component: website
-name: what-about
+name: cloudfront-website
 
 inputs:
   src:
