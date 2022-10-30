@@ -25,3 +25,4 @@ To deploy it:
 ```
 $ sls deploy
 ```
+![Deploy](https://raw.githubusercontent.com/DiegoVictor/cloudfront-website/main/screenshots/deploy.gif)
