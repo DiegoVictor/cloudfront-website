@@ -3,7 +3,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://raw.githubusercontent.com/DiegoVictor/what-about-it/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Generates a random response.
+Chooses a random response from a pre defined list and show it on the screen, but the main goal of this project is to host the website on AWS CloudFront.
 
 ![Demo](https://raw.githubusercontent.com/DiegoVictor/what-about-it/main/screenshots/what-about-it.gif)
 
