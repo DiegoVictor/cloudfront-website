@@ -14,10 +14,11 @@ Chooses a random response from a pre defined list and show it on the screen, but
 # Requirements
 * Node.js ^16.3.2
 * Serveless Framework 2.72.2
-> Serverless framework 3 is not working properly with components this is why you should use the lastest version 2
 * AWS Account
   * [CloudFront](https://aws.amazon.com/pt/cloudfront/)
 * [Serverless Components](https://github.com/serverless/components)
+
+> Serverless framework 3 is not working properly with components this is why you should use the lastest version 2
 
 # Deploy
 To deploy it:
