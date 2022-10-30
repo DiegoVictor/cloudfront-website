@@ -19,3 +19,8 @@ Generates a random response.
   * [CloudFront](https://aws.amazon.com/pt/cloudfront/)
 * [Serverless Components](https://github.com/serverless/components)
 
+# Deploy
+To deploy it:
+```
+$ sls deploy
+```
